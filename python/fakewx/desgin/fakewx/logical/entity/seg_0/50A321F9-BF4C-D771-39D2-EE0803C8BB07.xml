@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50A321F9-BF4C-D771-39D2-EE0803C8BB07" name="Group">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 01:27:37 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<engineerTo>
+<item key="22DF86FA-6294-B34B-B818-8C11896045E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="gid" id="7F11CB17-0ADB-C35A-7684-FEF0C41A00D2">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 01:42:14 UTC</createdTime>
+<comment>组ID</comment>
+<commentInRDBMS>组ID</commentInRDBMS>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<engineerTo>
+<item key="22DF86FA-6294-B34B-B818-8C11896045E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>140CC29D-F541-FE0D-8B80-F442BF6C3404</domain>
+</Attribute>
+<Attribute name="name" id="D28507C9-E34A-492A-F2D4-DB31BF0CF95C">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 01:42:27 UTC</createdTime>
+<comment>组名称</comment>
+<commentInRDBMS>组名称</commentInRDBMS>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<engineerTo>
+<item key="22DF86FA-6294-B34B-B818-8C11896045E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1B58EDE6-2C8F-F19C-2C37-B4B29D69936B</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20B990C4-0B4B-A0C6-A00E-4A863548EE77" name="Group PK">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 01:42:18 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<engineerTo>
+<item key="22DF86FA-6294-B34B-B818-8C11896045E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7F11CB17-0ADB-C35A-7684-FEF0C41A00D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

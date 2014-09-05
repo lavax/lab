@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="F81ABA6F-670F-17CE-4F2E-9AC96F18C8C3" name="Friend" seqName="seg_0"/>
+   <object objectType="Table" objectID="69119793-6885-3B11-6C57-D20451E986C8" name="Group" seqName="seg_0"/>
+   <object objectType="Table" objectID="A6749AA7-B690-4376-314D-39A5BF09ABB3" name="MsgHeader" seqName="seg_0"/>
+   <object objectType="Table" objectID="9AE00609-7C18-098F-33F7-61881C1C2E2A" name="User" seqName="seg_0"/>
+   <object objectType="Table" objectID="59331E4A-4868-5E26-ADE2-1B00F3897CF6" name="UserGroup" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="96168D6A-95F6-D17D-1B22-368357527D94" name="FK_ASS_1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="116CF923-6CFA-4059-B5F8-3E7B5BA9A09B" name="FK_ASS_2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="90A0DA70-80A2-9A1A-525F-8AE07CD2AC31" name="FK_ASS_3" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B3200F09-9EF5-7C62-F6B9-ED97A4E5DE47" name="FK_ASS_4" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0BED948F-B685-1E74-9D15-EC284BB0D618" name="MsgHeader_User_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

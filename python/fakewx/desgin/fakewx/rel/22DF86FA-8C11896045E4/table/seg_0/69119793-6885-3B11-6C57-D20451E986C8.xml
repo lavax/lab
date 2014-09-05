@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69119793-6885-3B11-6C57-D20451E986C8" name="Group">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:29 UTC</createdTime>
+<generatorID>50A321F9-BF4C-D771-39D2-EE0803C8BB07</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="gid" id="53381E9F-6F64-2335-B926-600A08CB778C">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<comment>组ID</comment>
+<commentInRDBMS>组ID</commentInRDBMS>
+<generatorID>7F11CB17-0ADB-C35A-7684-FEF0C41A00D2</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>140CC29D-F541-FE0D-8B80-F442BF6C3404</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="7ED50627-29F3-2825-97A8-DE5E49605D00">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<comment>组名称</comment>
+<commentInRDBMS>组名称</commentInRDBMS>
+<generatorID>D28507C9-E34A-492A-F2D4-DB31BF0CF95C</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1B58EDE6-2C8F-F19C-2C37-B4B29D69936B</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="952B2341-76D5-A58E-F4F3-48C1AB2A2A51" name="Group_PK">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<generatorID>20B990C4-0B4B-A0C6-A00E-4A863548EE77</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53381E9F-6F64-2335-B926-600A08CB778C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

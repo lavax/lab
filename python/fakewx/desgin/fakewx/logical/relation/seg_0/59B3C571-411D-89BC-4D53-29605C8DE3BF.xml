@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Friend" directorySegmentName="seg_0" id="59B3C571-411D-89BC-4D53-29605C8DE3BF">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 01:28:51 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<engineerTo>
+<item key="22DF86FA-6294-B34B-B818-8C11896045E4" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DB0E2991-88C1-F3FE-884C-FD0A40C316FB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB0E2991-88C1-F3FE-884C-FD0A40C316FB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

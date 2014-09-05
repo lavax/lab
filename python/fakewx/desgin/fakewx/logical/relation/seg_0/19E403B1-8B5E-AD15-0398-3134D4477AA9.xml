@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UserGroup" directorySegmentName="seg_0" id="19E403B1-8B5E-AD15-0398-3134D4477AA9">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 01:29:22 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<engineerTo>
+<item key="22DF86FA-6294-B34B-B818-8C11896045E4" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>50A321F9-BF4C-D771-39D2-EE0803C8BB07</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB0E2991-88C1-F3FE-884C-FD0A40C316FB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

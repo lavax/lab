@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B90435DA-46EC-CFD6-AFFC-4F89A2252DCD" mainViewID="E154AE03-63EF-E04A-A3C6-9A515DC08232">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 01:25:44 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

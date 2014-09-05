@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="6662357C-F74D-88F1-BB70-8D87B271E9B1">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 01:25:45 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

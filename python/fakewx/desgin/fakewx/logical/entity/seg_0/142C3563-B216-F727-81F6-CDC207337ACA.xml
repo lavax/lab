@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="142C3563-B216-F727-81F6-CDC207337ACA" name="MsgHeader">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 01:27:42 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<engineerTo>
+<item key="22DF86FA-6294-B34B-B818-8C11896045E4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no" id="02DB8E1F-98E6-EBF9-F743-992F15F559E3">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 01:37:19 UTC</createdTime>
+<comment>消息编号</comment>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<engineerTo>
+<item key="22DF86FA-6294-B34B-B818-8C11896045E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>140CC29D-F541-FE0D-8B80-F442BF6C3404</domain>
+</Attribute>
+<Attribute name="sender" id="48333556-994B-01A3-CB4A-68E89549A3D2">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 01:33:35 UTC</createdTime>
+<comment>发送者</comment>
+<commentInRDBMS>发送者</commentInRDBMS>
+<generatorID>DF720ED4-28D5-BA95-C91E-BF256668851B</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<engineerTo>
+<item key="22DF86FA-6294-B34B-B818-8C11896045E4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>81A3D87B-0B1F-8239-2D57-08E3138B27A5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>140CC29D-F541-FE0D-8B80-F442BF6C3404</domain>
+</Attribute>
+<Attribute name="send_time" id="48845940-0002-C3D9-CB4E-CEB71CE363F1">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 01:40:40 UTC</createdTime>
+<comment>发送日期</comment>
+<commentInRDBMS>发送日期</commentInRDBMS>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<engineerTo>
+<item key="22DF86FA-6294-B34B-B818-8C11896045E4" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>BC25AE67-6541-9A62-6677-C345F6A2A75E</domain>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8213F54-F68D-8E0C-F238-A576068E1349" name="Msg PK">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 01:37:34 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<engineerTo>
+<item key="22DF86FA-6294-B34B-B818-8C11896045E4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02DB8E1F-98E6-EBF9-F743-992F15F559E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

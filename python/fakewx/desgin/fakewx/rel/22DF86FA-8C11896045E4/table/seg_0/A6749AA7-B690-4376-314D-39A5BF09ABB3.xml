@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6749AA7-B690-4376-314D-39A5BF09ABB3" name="MsgHeader">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<generatorID>142C3563-B216-F727-81F6-CDC207337ACA</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no" id="2C6684DA-B40F-4F5B-40DA-BB6AD84799FA">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<comment>消息编号</comment>
+<generatorID>02DB8E1F-98E6-EBF9-F743-992F15F559E3</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>140CC29D-F541-FE0D-8B80-F442BF6C3404</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sender" id="9ED87592-84D4-74E1-E66D-DFCC4A309ABD">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<comment>发送者</comment>
+<commentInRDBMS>发送者</commentInRDBMS>
+<generatorID>48333556-994B-01A3-CB4A-68E89549A3D2</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>140CC29D-F541-FE0D-8B80-F442BF6C3404</domain>
+<delegate>BF400AF7-9ADC-766B-6745-98CCEF84A218</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BED948F-B685-1E74-9D15-EC284BB0D618" referredColumn="BF400AF7-9ADC-766B-6745-98CCEF84A218"/>
+</associations>
+</Column>
+<Column name="send_time" id="626904E5-09BE-B64D-3E6B-1DD676119ED0">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<comment>发送日期</comment>
+<commentInRDBMS>发送日期</commentInRDBMS>
+<generatorID>48845940-0002-C3D9-CB4E-CEB71CE363F1</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>BC25AE67-6541-9A62-6677-C345F6A2A75E</domain>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58E19155-A010-ECBA-9D5B-E1B6D908A133" name="MsgHeader_PK">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<generatorID>D8213F54-F68D-8E0C-F238-A576068E1349</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C6684DA-B40F-4F5B-40DA-BB6AD84799FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="250024B6-9850-A681-3C56-AF7678684406" name="MsgHeader_User_FK">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<generatorID>DF720ED4-28D5-BA95-C91E-BF256668851B</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ED87592-84D4-74E1-E66D-DFCC4A309ABD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F81ABA6F-670F-17CE-4F2E-9AC96F18C8C3" name="Friend">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="User_uid" id="61971282-38CF-1FF8-67B7-4FA868B6FD87">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>140CC29D-F541-FE0D-8B80-F442BF6C3404</domain>
+<delegate>BF400AF7-9ADC-766B-6745-98CCEF84A218</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96168D6A-95F6-D17D-1B22-368357527D94" referredColumn="BF400AF7-9ADC-766B-6745-98CCEF84A218"/>
+</associations>
+</Column>
+<Column name="User_uid1" id="833025D8-FC85-A96E-8C92-D92525967795">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>140CC29D-F541-FE0D-8B80-F442BF6C3404</domain>
+<delegate>BF400AF7-9ADC-766B-6745-98CCEF84A218</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="116CF923-6CFA-4059-B5F8-3E7B5BA9A09B" referredColumn="BF400AF7-9ADC-766B-6745-98CCEF84A218"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D2ED662-6A84-F69D-6367-244505BD9E93" name="Friend__IDX">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61971282-38CF-1FF8-67B7-4FA868B6FD87"/>
+<colUsage columnID="833025D8-FC85-A96E-8C92-D92525967795"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B248A50-4E90-2926-6C33-D19C8EAFCF34" name="FK_ASS_1">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<generatorID>59B3C571-411D-89BC-4D53-29605C8DE3BF</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61971282-38CF-1FF8-67B7-4FA868B6FD87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="367335BF-A8B2-DC52-BE38-126A708461AC" name="FK_ASS_2">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 02:00:30 UTC</createdTime>
+<generatorID>59B3C571-411D-89BC-4D53-29605C8DE3BF</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="833025D8-FC85-A96E-8C92-D92525967795"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

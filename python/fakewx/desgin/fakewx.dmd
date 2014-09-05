@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="fakewx" id="A1D09C45-C7A9-4E7A-5CCE-BC5728C6A36C" version="3.5">
+<createdBy>Eric</createdBy>
+<createdTime>2014-09-05 01:25:44 UTC</createdTime>
+<generatorID>用户生成</generatorID>
+<ownerDesignName>fakewx</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A1D09C45-C7A9-4E7A-5CCE-BC5728C6A36C</designId>
+</OSDM_Design>
