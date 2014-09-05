@@ -1,0 +1,2 @@
+prd=_sinolifeit@sino-life.com/Sinolife2009@172.26.1.20:389
+test=192.168.0.163:389
