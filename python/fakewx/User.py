@@ -1,6 +1,8 @@
 #!/usr/bin/python
 #coding:utf-8
-
+'''
+    User class
+'''
 class User:
     uid=None
     name=None
