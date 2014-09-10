@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="/home/eric/program/jdk1.8.0_11/jre" version="1.8.0_11">
+<bootpath>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/resources.jar"/>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/rt.jar"/>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/sunrsasign.jar"/>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/jsse.jar"/>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/jce.jar"/>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/charsets.jar"/>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/jfr.jar"/>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/ext"/>
+<entry path="/usr/java/packages/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/home/eric/program/jdk1.8.0_11" version="1.8.0_11">
+<bootpath>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/resources.jar"/>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/rt.jar"/>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/sunrsasign.jar"/>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/jsse.jar"/>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/jce.jar"/>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/charsets.jar"/>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/jfr.jar"/>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/ext"/>
+<entry path="/usr/java/packages/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/home/eric/program/jdk1.8.0_11/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

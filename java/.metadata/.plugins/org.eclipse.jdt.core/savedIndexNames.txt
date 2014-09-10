@@ -1,0 +1,19 @@
+INDEX VERSION 1.127+/home/eric/lab/java/.metadata/.plugins/org.eclipse.jdt.core
+1943757816.index
+2946340969.index
+2109177008.index
+943483209.index
+18622716.index
+3950580589.index
+4259499935.index
+2912421750.index
+1424874856.index
+521826254.index
+237472743.index
+1477062529.index
+4247849002.index
+2746010114.index
+2592953221.index
+2134692363.index
+879597888.index
+1476729703.index
